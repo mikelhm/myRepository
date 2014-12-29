@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="带有图片的textview组件" 
+        android:drawableTop="@drawable/left"/>
+    
+        <TextView
+        android:id="@+id/textView2"
+        android:layout_width="300px"
+        android:layout_height="wrap_content"
+        android:layout_margin="30px"
+        android:text="多行文本：腾讯公司成立于1998年11月， 是目前中国最大的互联网综合服务提供商之一，也是中国服务用户最多的互联网企业之一。
+成立10多年以来，腾讯一直秉承一切以用户价值为依归的经营理念，始终处于稳健、高速发展的状态。" 
+        />
+        
+          <TextView
+              android:id="@+id/textView3"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_margin="30px"
+              android:singleLine="true"
+              android:text="单行文本：腾讯公司成立于1998年11月， 是目前中国最大的互联网综合服务提供商之一，也是中国服务用户最多的互联网企业之一。
+成立10多年以来，腾讯一直秉承一切以用户价值为依归的经营理念，始终处于稳健、高速发展的状态。" />
+
+</LinearLayout>

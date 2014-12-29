@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/d">
+
+      <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button2"
+        android:text="表格布局" />
+      
+        <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button1"
+        android:layout_above="@+id/button3"
+        android:text="帧布局" />
+       <Button
+        android:id="@+id/button3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button4"
+        android:layout_below="@+id/button2"
+        android:text="相对布局" />
+       <Button
+        android:id="@+id/button4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button3"
+        android:text="线性+相对" />
+       
+       <TableLayout android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+           <TableRow>
+               <Button android:text="文本框" 
+                       android:layout_width="fill_parent"
+                       android:layout_height="wrap_content"
+                       android:id="@+id/button5">
+               </Button>
+                <Button android:text="编辑框" 
+                       android:layout_width="fill_parent"
+                       android:layout_height="wrap_content"
+                       android:id="@+id/button6">
+                       
+               </Button>
+               <Button android:text="单选按钮和复选框" 
+                       android:layout_width="fill_parent"
+                       android:layout_height="wrap_content"
+                       android:id="@+id/button7">
+               </Button>
+           </TableRow>
+       </TableLayout>
+       
+</LinearLayout>
+

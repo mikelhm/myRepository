@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="用户名字" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="请输入用户名字"
+            android:inputType="textPersonName"
+            android:singleLine="true" >
+
+            <requestFocus
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </EditText>
+        
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="输入密码" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="请输入密码"
+            android:inputType="textPassword" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="确认密码" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="请确认密码"
+            android:inputType="textPassword" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="输入邮箱" />
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="请输入邮箱"
+            android:inputType="textEmailAddress" />
+    </TableRow>
+
+    <TableRow android:layout_width="wrap_content" >
+
+		    <RadioGroup
+		    android:id="@+id/radioGroup1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content" 
+		    android:orientation="horizontal">
+		
+		    <RadioButton
+		        android:id="@+id/radio0"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:checked="true"
+		        android:text="男人" />
+		
+		    <RadioButton
+		        android:id="@+id/radio1"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="女人" />
+		    </RadioGroup>
+     </TableRow>
+
+    <TableRow android:layout_span='3'>
+      
+     
+       <TextView
+            android:id="@+id/textView5"
+            android:layout_width="1dip"
+            android:text="愛好:"
+            android:textSize="18sp" />
+     </TableRow>
+     
+     <TableRow android:layout_span='3'> 
+       <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="体育" />
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="娱乐" />
+         <CheckBox
+            android:id="@+id/checkBox5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="政治" />
+       
+     </TableRow>
+     <TableRow>
+         <CheckBox
+           android:id="@+id/checkBox3"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="音乐" />
+          <CheckBox
+           android:id="@+id/checkBox4"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="科学" />
+     </TableRow>
+     <TableRow>
+         <Button
+         android:id="@+id/button1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="提交" />
+          <Button
+         android:id="@+id/button2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="清空" />
+     </TableRow>
+</TableLayout>
