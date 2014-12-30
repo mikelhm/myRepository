@@ -47,8 +47,56 @@
                        android:id="@+id/button6">
                        
                </Button>
+
+                <Button
+                    android:id="@+id/listviewbutton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="列表视图" />
+
            </TableRow>
        </TableLayout>
-       
+
+        <TableLayout android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+           <TableRow>
+               <Button
+           android:id="@+id/timeButton"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="时间器" />
+
+               <Button
+                   android:id="@+id/imageviewButton"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="带图像的列表视图" />
+
+               <Button
+                   android:id="@+id/autotext"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="自动文本框" />
+               
+           </TableRow>
+           
+           <TableRow>
+               <Button
+            android:id="@+id/progressbut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="进度条" />
+
+               <Button
+                   android:id="@+id/seekbut"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="拖动条" />
+               
+           </TableRow>
+        </TableLayout>
+
+        
+
 </LinearLayout>
 

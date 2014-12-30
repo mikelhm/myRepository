@@ -67,6 +67,60 @@ public class MainActivity extends ActionBarActivity {
 				startActivity(intent);
 			}
 		});
+		
+		Button listButton=(Button) this.findViewById(R.id.listviewbutton);
+		listButton.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Intent intent=new Intent(MainActivity.this,listviewActivity.class);
+				startActivity(intent);
+			}
+		});
+		
+		Button timeButton=(Button) this.findViewById(R.id.timeButton);
+		timeButton.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Intent intent=new Intent(MainActivity.this,dateandtimeActivity.class);
+				startActivity(intent);
+			}
+		});
+		Button imagelistviewButton=(Button) this.findViewById(R.id.imageviewButton);
+		imagelistviewButton.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Intent intent=new Intent(MainActivity.this,imagelistviewActivity.class);
+				startActivity(intent);
+			}
+		});
+		
+		Button searchbut=(Button) this.findViewById(R.id.autotext);
+		searchbut.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Intent intent=new Intent(MainActivity.this,autotextviewActivity.class);
+				startActivity(intent);
+			}
+		});
+		
+		Button progressbut=(Button) this.findViewById(R.id.progressbut);
+		progressbut.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Intent intent=new Intent(MainActivity.this,progressActivity.class);
+				startActivity(intent);
+			}
+		});
+		
+		Button seekbut=(Button) this.findViewById(R.id.seekbut);
+		seekbut.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Intent intent=new Intent(MainActivity.this,seekbarActivity.class);
+				startActivity(intent);
+			}
+		});
+		
 	}
 
 	@Override
