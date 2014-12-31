@@ -65,6 +65,21 @@
          <activity android:name=".progressActivity">
             
         </activity>
+        <activity android:name=".ratingActivity">
+            
+        </activity>
+        <activity android:name=".tabActivity">
+            
+        </activity>
+         <activity android:name=".imageswitchActivity">
+            
+        </activity>
+        <activity android:name=".gridviewActivity">
+            
+        </activity>
+         <activity android:name=".galleryActivity">
+            
+        </activity>
     </application>
 
 </manifest>

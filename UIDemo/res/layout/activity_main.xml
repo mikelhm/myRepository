@@ -92,11 +92,43 @@
                    android:layout_width="wrap_content"
                    android:layout_height="wrap_content"
                    android:text="拖动条" />
+
+               <Button
+                   android:id="@+id/ratingbut"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="星级评分" />
                
            </TableRow>
+           <TableRow>
+        <Button
+            android:id="@+id/tabbut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="选项卡" />
+                   <Button
+            android:id="@+id/imageswitchbut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="图像切换器" />
+
+                   <Button
+                       android:id="@+id/gridbut"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="网格视图" />
+               
+           </TableRow>
+              <TableRow>
+            <Button
+            android:id="@+id/gallerybut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="画廊视图" />
+        </TableRow>
         </TableLayout>
-
+     
         
-
+       
 </LinearLayout>
 

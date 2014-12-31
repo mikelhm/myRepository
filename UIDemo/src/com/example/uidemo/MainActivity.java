@@ -120,7 +120,50 @@ public class MainActivity extends ActionBarActivity {
 				startActivity(intent);
 			}
 		});
+		Button ratingbut=(Button) this.findViewById(R.id.ratingbut);
+		ratingbut.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Intent intent=new Intent(MainActivity.this,ratingActivity.class);
+				startActivity(intent);
+			}
+		});
 		
+		Button tabbut=(Button) this.findViewById(R.id.tabbut);
+		tabbut.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Intent intent=new Intent(MainActivity.this,tabActivity.class);
+				startActivity(intent);
+			}
+		});
+		
+		Button imagesbut=(Button) this.findViewById(R.id.imageswitchbut);
+	    imagesbut.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Intent intent=new Intent(MainActivity.this,imageswitchActivity.class);
+				startActivity(intent);
+			}
+		});
+	    
+	    Button gridbut=(Button) this.findViewById(R.id.gridbut);
+	    gridbut.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Intent intent=new Intent(MainActivity.this,gridviewActivity.class);
+				startActivity(intent);
+			}
+		});
+	    
+	    Button gallerybut=(Button) this.findViewById(R.id.gallerybut);
+	    gallerybut.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Intent intent=new Intent(MainActivity.this,galleryActivity.class);
+				startActivity(intent);
+			}
+		});
 	}
 
 	@Override
