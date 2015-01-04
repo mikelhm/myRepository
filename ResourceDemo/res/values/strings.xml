@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ResourceDemo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title">android资源访问</string>
+    <string name="introduce">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;一.android中的资源是在代码中使用的外部文件。图片，音频，动画和字符串等叫做android中的资源文件。 &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;二.Android工程 资源类型布局表与src源文件夹并列的两个文件夹assets和res用来保存资源文件。 
+     &#x000A;1.assets文件夹中放原声文件如MP3文件，通过AssetManager类以二进制流的形式访问 ;
+     &#x000A;2.res中资源可以通过R资源类直接访问： 
+       anim:保存动画 
+       drawable:位图文件 
+       layout：xml布局文件 
+       values:各种xml资源文件 
+               arrays.xml:xml数组文件 
+               colors.xml:xml颜色文件 
+               dimens.xml:xml尺寸文件 
+               styles.xml:xml样式文件 
+       raw:直接复制到设备中的源文件 
+       menu:xml菜单文件
+ 使用mContext.getResources()得到Resources对象来获取资源</string>
+
+</resources>
