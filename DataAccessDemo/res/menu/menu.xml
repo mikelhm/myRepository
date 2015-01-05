@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+ <item android:id="@+id/assetRead" android:title="读取asset中的文件" ></item>
+ <item android:id="@+id/rawRead" android:title="读取raw中的文件" ></item>
+ <item android:id="@+id/xmlRead" android:title="读取xml中的文件" ></item>
+ <item android:id="@+id/internalRead" android:title="机身内存读写" ></item>
+  <item android:id="@+id/externalRead" android:title="SD卡文件读写" ></item>
+
+</menu>

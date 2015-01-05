@@ -8,7 +8,7 @@
         android:id="@+id/hintText"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="点击菜单项和点击文字区弹出上下文菜单"
+        android:text="点击菜单项和长按文字区弹出上下文菜单"
         android:gravity="center" />
       
     <TextView

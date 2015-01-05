@@ -1,0 +1,2 @@
+This is a file in the directory assets
+这是一个在assets文件夹下的文件
